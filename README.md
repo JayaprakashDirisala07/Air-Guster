@@ -1,7 +1,9 @@
 
 Hand Gesture Controlled Mouse 🖐️🖱️
+-------------------------------------------------------------------------------------------------------------------
 
 Overview
+-------------------------------------------------------------------------------------------------------------------
 This project enables you to control your computer's mouse cursor using hand gestures, detected through a webcam. Leveraging computer vision techniques, hand movements and gestures are translated into mouse actions such as moving the cursor and clicking.
 
 Key Components
@@ -51,24 +53,30 @@ Gesture Sensitivity: The system’s gesture sensitivity needs to be fine-tuned t
 -------------------------------------------------------------------------------------------------------------------
 
 Installation
+-------------------------------------------------------------------------------------------------------------------
 To set up the project, follow these steps:
 
 -------------------------------------------------------------------------------------------------------------------
-Clone the repository:
 
+Clone the repository:
+-------------------------------------------------------------------------------------------------------------------
 bash
 Copy code
 git clone https://github.com/your-username/hand-gesture-controlled-mouse.git
 cd hand-gesture-controlled-mouse
--------------------------------------------------------------------------------------------------------------------
-Install the required dependencies:
 
+-------------------------------------------------------------------------------------------------------------------
+
+Install the required dependencies:
+-------------------------------------------------------------------------------------------------------------------
 bash
 Copy code
 pip install -r requirements.txt
+
 -------------------------------------------------------------------------------------------------------------------
 
 Run the application:
+-------------------------------------------------------------------------------------------------------------------
 bash
 Copy code
 python hand_gesture_mouse.py
@@ -77,19 +85,28 @@ Python 3.x
 OpenCV
 MediaPipe
 PyAutoGUI'
+
 -------------------------------------------------------------------------------------------------------------------
+
 Example of Use
+-------------------------------------------------------------------------------------------------------------------
 Once the script is running, you can control the mouse by moving your hand in front of the webcam. Pinching your index finger and thumb together simulates a mouse click.
+
 -------------------------------------------------------------------------------------------------------------------
+
 Contributing
+-------------------------------------------------------------------------------------------------------------------
 Contributions are welcome! If you have ideas or improvements, feel free to open an issue or submit a pull request.
+
 -------------------------------------------------------------------------------------------------------------------
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 -------------------------------------------------------------------------------------------------------------------
+
 Acknowledgements
+-------------------------------------------------------------------------------------------------------------------
 OpenCV
 MediaPipe
 PyAutoGUI
 Feel free to customize the links, project name, and add any additional details specific to your implementation.
+
 -------------------------------------------------------------------------------------------------------------------
